@@ -59,7 +59,7 @@ rm -rf Dockerfile chef.py requirements.txt
 # Step 6: Download required files (Add specific URLs in wget commands)
 echo "${RED}${BOLD}Downloading required files...${RESET}"
 wget https://raw.githubusercontent.com/ThiraphopT/AI_App_Gemini_and_streamlit/refs/heads/master/chef.py
-wget https://raw.githubusercontent.com/ThiraphopT/AI_App_Gemini_and_streamlit/refs/heads/master/Dockerfire
+wget https://raw.githubusercontent.com/ThiraphopT/AI_App_Gemini_and_streamlit/refs/heads/master/Dockerfile
 wget https://raw.githubusercontent.com/ThiraphopT/AI_App_Gemini_and_streamlit/refs/heads/master/requirements.txt
 
 # Step 7: Upload chef.py to the Cloud Storage bucket
