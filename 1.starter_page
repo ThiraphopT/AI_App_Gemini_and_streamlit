@@ -1,1 +1,16 @@
+Task 1. Open the notebook in Vertex AI Workbench
+  1. In the Google Cloud console, on the Navigation menu (Navigation menu icon), click Vertex AI > Workbench.
+  2. Find the vertex-ai-jupyterlab instance and click on the Open JupyterLab button.
 
+
+create the environment
+  python3 -m venv gemini-streamlit
+  source gemini-streamlit/bin/activate
+  pip install -r requirements.txt
+
+run streamlit
+  streamlit run app.py \
+    --browser.serverAddress=localhost \
+    --server.enableCORS=false \
+    --server.enableXsrfProtection=false \
+    --server.port 8080
