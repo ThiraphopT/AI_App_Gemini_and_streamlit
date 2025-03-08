@@ -70,7 +70,7 @@ st.subheader("AI Chef")
 
 cuisine = st.selectbox(
     "What cuisine do you desire?",
-    ("American", "Chinese", "French", "Indian", "Italian", "Japanese", "Mexican", "Turkish"),
+    ("American", "Chinese", "French", "Indian", "Italian", "Japanese", "Mexican", "Turkish","Thai"),
     index=None,
     placeholder="Select your desired cuisine."
 )
